@@ -7,5 +7,3 @@ edition = "2021"
 
 [dependencies]
 ndarray = "0.15.6"
-# pdf-extract = "0.6.4"
-pdf-extract = { path = "../pdf-extract" }

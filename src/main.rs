@@ -9,9 +9,10 @@ pub mod test_references;
 pub mod test_macro;
 pub mod test_matrices;
 pub mod test_generics;
-pub mod test_pdf;
+// pub mod test_pdf;
 pub mod test_enum;
 pub mod test_clone_dyn;
+pub mod test_closures2;
 
 fn main() {
     // test1::main();
@@ -27,5 +28,6 @@ fn main() {
     // test_generics::main();
     // test_pdf::main();
     // test_enum::main();
-    test_clone_dyn::main();
+    // test_clone_dyn::main();
+    test_closures2::main();
 }
